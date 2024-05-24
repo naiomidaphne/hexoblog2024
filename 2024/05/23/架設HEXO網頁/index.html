@@ -28,9 +28,9 @@
 <meta property="og:description" content="架設網站前的準備工作Node.js官網  載入最新的node.js 和 npm 檢查 node.js 是否成功下載，那就是查詢下載的版本 輸入 $ node -v 只要版本數字是跟你下載官網上顯示的版本相同即是下載完成 輸入$ npm -v 看到版本數字及是下載完成  HEXO 網站架設第一步HEXO官網  打開終端機輸入指令 $ npm install hexo-cli -g 輸入 hexo i">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-05-23T08:29:39.000Z">
-<meta property="article:modified_time" content="2024-05-23T09:53:19.359Z">
+<meta property="article:modified_time" content="2024-05-24T07:38:07.901Z">
 <meta property="article:author" content="Daphne Shen">
-<meta property="article:tag" content="前端, UI設計, CSS, HTML5, Javascript">
+<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="https://naiomidaphne.github.io/hexoblog2024/2024/05/23/%E6%9E%B6%E8%A8%ADHEXO%E7%B6%B2%E9%A0%81/">
@@ -113,24 +113,19 @@
 
 <nav class="site-nav">
   <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
+        <li class="menu-item menu-item-主頁">
 
-    <a href="/hexoblog2024/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/hexoblog2024/%E9%97%9C%E6%96%BC%E6%88%91/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+    <a href="/hexoblog2024/" rel="section"><i class="fa fa-home fa-fw"></i>主頁</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
+        <li class="menu-item menu-item-關於我">
 
-    <a href="/hexoblog2024/%E6%A8%99%E7%B1%A4/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+    <a href="/hexoblog2024/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於我</a>
 
   </li>
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-部落格">
 
-    <a href="/hexoblog2024/%E9%83%A8%E8%90%BD%E6%A0%BC/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/hexoblog2024/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>部落格</a>
 
   </li>
   </ul>
@@ -183,10 +178,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2024-05-23 16:29:39 / Modified: 17:53:19" itemprop="dateCreated datePublished" datetime="2024-05-23T16:29:39+08:00">2024-05-23</time>
+              <time title="Created: 2024-05-23 16:29:39" itemprop="dateCreated datePublished" datetime="2024-05-23T16:29:39+08:00">2024-05-23</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-05-24 15:38:07" itemprop="dateModified" datetime="2024-05-24T15:38:07+08:00">2024-05-24</time>
+              </span>
 
           
 
@@ -253,6 +254,9 @@ branch: gh-pages
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/hexoblog2024/%E9%97%9C%E9%8D%B5%E5%AD%97/hexo/" rel="tag"># hexo</a>
+          </div>
 
         
 
@@ -337,11 +341,14 @@ branch: gh-pages
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/hexoblog2024/%E9%83%A8%E8%90%BD%E6%A0%BC/">
-        
+          <a href="/hexoblog2024/%E9%83%A8%E8%90%BD%E6%A0%BC">
           <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span>
       </div>
   </nav>
 </div>
